@@ -7,13 +7,13 @@
             <h2 class="text-center">Login</h2>
             <form action="" class="p-5">
                 <div class="m-3">
-                    <input (change)="acnoChange($event)" type="text" [placeholder]="accPlcaeholder" class="form-control">
+                    <input #acno type="text" [placeholder]="accPlcaeholder" class="form-control">
                 </div>
                 <div class="m-3">
-                    <input (change)="pswdChange($event)" type="password" name="" id="" class="form-control" placeholder="Password">
+                    <input #pswd type="password" name="" id="" class="form-control" placeholder="Password">
                 </div>
                 <div class="m-3">
-                    <input (click)="login()" type="button" value="Login" class="btn btn-success text-center" id="login">
+                    <input (click)="login(acno,pswd)" type="button" value="Login" class="btn btn-success text-center" id="login">
                 </div>
             </form>
             <div>

@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    background: url(./assets/bank.jpg);
+    background-size: cover;
+}
+.border{
+ background-color: rgb(197, 203, 219);
+ opacity: .8;
+}
